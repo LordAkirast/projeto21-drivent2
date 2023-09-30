@@ -1,9 +1,13 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 68b279a61970862fa99f0b4f6fbaa407a5e8536a
 dist
 node_modules
 .env*
 !.env.example
 yarn.lock
+<<<<<<< HEAD
 .vscode
 =======
 # Logs
@@ -137,3 +141,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 >>>>>>> 473911bf5e2ba57459cc25d59b56306d9a7cc612
+=======
+.vscode
+>>>>>>> 68b279a61970862fa99f0b4f6fbaa407a5e8536a
