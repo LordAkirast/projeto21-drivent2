@@ -18,10 +18,7 @@ model User {
   updatedAt  DateTime     @updatedAt
   Session    Session[]
   Enrollment Enrollment[]
-<<<<<<< HEAD
-=======
   Booking    Booking[]
->>>>>>> 68b279a61970862fa99f0b4f6fbaa407a5e8536a
 }
 
 model Session {
@@ -55,11 +52,7 @@ model Enrollment {
   Address   Address[]
   createdAt DateTime  @default(now())
   updatedAt DateTime  @updatedAt
-<<<<<<< HEAD
-  Ticket    Ticket?  
-=======
   Ticket    Ticket?
->>>>>>> 68b279a61970862fa99f0b4f6fbaa407a5e8536a
 }
 
 model Address {
@@ -114,8 +107,6 @@ model Payment {
   cardLastDigits String
   createdAt      DateTime @default(now())
   updatedAt      DateTime @updatedAt
-<<<<<<< HEAD
-=======
 }
 
 model Hotel {
@@ -146,5 +137,4 @@ model Booking {
   roomId    Int
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
->>>>>>> 68b279a61970862fa99f0b4f6fbaa407a5e8536a
 }
