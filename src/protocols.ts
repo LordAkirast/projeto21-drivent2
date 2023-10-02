@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 import { Payment, Ticket } from '@prisma/client';
 
->>>>>>> 68b279a61970862fa99f0b4f6fbaa407a5e8536a
 export type ApplicationError = {
   name: string;
   message: string;
@@ -31,8 +28,6 @@ export type AddressEnrollment = {
 export type CEP = {
   cep: string;
 };
-<<<<<<< HEAD
-=======
 
 export type CreateTicketParams = Omit<Ticket, 'id' | 'createdAt' | 'updatedAt'>;
 
@@ -54,4 +49,3 @@ export type InputPaymentBody = {
 };
 
 export type PaymentParams = Omit<Payment, 'id' | 'createdAt' | 'updatedAt'>;
->>>>>>> 68b279a61970862fa99f0b4f6fbaa407a5e8536a
